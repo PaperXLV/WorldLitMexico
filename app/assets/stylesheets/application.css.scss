@@ -16,3 +16,22 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body, .home, html {
+    height: 100%;
+}
+
+.home-image {
+    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/167155.jpg");
+
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    //same as home-image but make it larger? to scroll slower and get a cool effect
+}
