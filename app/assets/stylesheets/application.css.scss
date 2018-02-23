@@ -24,6 +24,15 @@ body, .home, html {
 .home-image {
     background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/167155.jpg");
 }
+
+.city-image {
+    background-image: url("https://wallpaperscraft.com/image/mexico_ocean_sea_beach_building_resort_47730_1920x1200.jpg");
+}
+
+.resort-image {
+    background-image: url("https://wallpaperscraft.com/image/mexico_resort_ocean_shore_buildings_116370_1920x1200.jpg");
+}
+
 .parallax {
     height: 100%;
     
@@ -47,7 +56,49 @@ body, .home, html {
     font-family: 'Mrs Sheppards', cursive;
 }
 
-.content {
-    box-shadow: 0 -10px 10px 7px aliceblue;
+.align-right {
+    text-align: right;
+}
+
+.full-width {
+    width: -webkit-fill-available;
+}
+
+.doc-height {
+    height: 500px;
+}
+
+.title-content {
     margin-top: -230px;
+}
+
+.content {
+    font-family: 'Bellefair', serif;
+    padding-bottom: 30px;
+    //box-shadow: 0 -10px 10px 7px aliceblue;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.divider::before {
+    flex: 1;
+    margin: 0 .45em 0 0;
+}
+
+.divider::after, .divider::before {
+    content: '';
+    height: 2px;
+    background: #333;
+}
+
+.divider::after {
+    flex: 1;
+    margin: 0 0 0 .45em;
 }
