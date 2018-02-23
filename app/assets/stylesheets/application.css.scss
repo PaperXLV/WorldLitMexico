@@ -23,7 +23,8 @@ body, .home, html {
 
 .home-image {
     background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/167155.jpg");
-
+}
+.parallax {
     height: 100%;
     
     background-attachment: fixed;
@@ -33,5 +34,20 @@ body, .home, html {
 }
 
 .title {
-    //same as home-image but make it larger? to scroll slower and get a cool effect
+    margin-top: -35%;
+    margin-bottom: 35%;
+}
+
+.title-text {
+    font-size: 200px;
+    text-shadow: 5px 1px aliceblue;
+}
+
+.font {
+    font-family: 'Mrs Sheppards', cursive;
+}
+
+.content {
+    box-shadow: 0 -10px 10px 7px aliceblue;
+    margin-top: -230px;
 }
